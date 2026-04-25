@@ -2,11 +2,11 @@
 # Aim
 Basic Charts and Visual Encoding.
 # Theory
-1. Basic charts and visual encoding in Python involve using graphs like bar, line, pie, scatter, and histogram charts with colors, sizes, shapes, and labels to represent and communicate data effectively.
+1. Basic charts and visual encoding in python involve using graphs like bar, line, pie, scatter, and histogram charts with colors, sizes, shapes, and labels to represent and communicate data effectively.
 2. import matplotlib.pyplot as plt – Imports Matplotlib’s plotting module and gives it the alias plt to create charts and graphs.
 3. import seaborn as sns – Imports Seaborn and gives it the alias sns to create attractive statistical visualizations.
 4. import pandas as pd – Imports Pandas and gives it the alias pd to handle and analyze data using DataFrames.
-5. pd.DataFrame(data) – Creates a Pandas DataFrame (table format) from the given data for easy data analysis and manipulation in Python.
+5. pd.DataFrame(data) – Creates a Pandas DataFrame (table format) from the given data for easy data analysis and manipulation in python.
 6. plt.plot(df['Days'], df['Study_Hours'], marker='o') – Creates a line graph of Days vs Study_Hours with circle markers on each data point.
 7. plt.title("sara") – Adds the title "sara" to the graph.
 8. plt.xlabel("Days") – Labels the x-axis as "Days".
@@ -40,7 +40,7 @@ Basic Charts and Visual Encoding.
 36. sns.histplot(df['Sales'], bins=5) – Creates a Seaborn histogram of the Sales column with 5 bins to show data distribution.
 37. sns.scatterplot(x='Sales', y='Profit', data=df) – Creates a Seaborn scatter plot showing the relationship between Sales and Profit from the DataFrame.
 # Conclusion
-Basic Charts and Visual Encoding in Python help represent data clearly using graphs such as line charts, bar charts, histograms, and scatter plots. Libraries like Matplotlib and Seaborn make it easy to create attractive and informative visualizations. Colors, labels, markers, sizes, and legends improve understanding by highlighting patterns, trends, comparisons, and relationships in the data. These charts are very useful in data analysis, reporting, and decision-making.
+Basic charts and visual encoding in python help represent data clearly using graphs such as line charts, bar charts, histograms, and scatter plots. Libraries like Matplotlib and Seaborn make it easy to create attractive and informative visualizations. Colors, labels, markers, sizes, and legends improve understanding by highlighting patterns, trends, comparisons, and relationships in the data. These charts are very useful in data analysis, reporting, and decision-making.
 
 
 
